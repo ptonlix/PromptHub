@@ -13,7 +13,6 @@
 * gpt-3.5-turbo
 
 ***其他模型待测试***
-
 ## 支持Prompt类型
 * Text
 * Python
@@ -108,3 +107,4 @@ ssprompt pull -s summarization -t text
 ##### 使用
 
 可以通过修改，复制到[openai](http://chat.openai.com)聊天交互页面使用
+
