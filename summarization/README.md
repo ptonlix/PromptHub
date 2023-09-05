@@ -1,28 +1,28 @@
 # ✒️ Summarization Prompt
 
-## 说明
+## 一.说明
 
 一个善于总结文档的Prompt，可以通过明确要求，让LLM总结所需的文档
 
-## 支持语言环境
+## 二.支持语言环境
 
 中文
 
-## 支持LLM模型
+## 三.支持LLM模型
 
 * gpt-3.5-turbo
 
 ***其他模型待测试***
-## 支持Prompt类型
+## 四.支持Prompt类型
 * Text
 * Python
 * Json
 * Yaml
 
-## 使用参考
+## 五.使用参考
 ssprompt工具[下载链接](https://github.com/ptonlix/ssprompt)
 
-### 使用Python类型的Prompt
+### 1.使用Python类型的Prompt
 
 ```shell
 # 进入到项目路径
@@ -55,7 +55,7 @@ In this notebook we will show how to connect prompt templates to feature stores.
 """
 chain.run(documents=doc, require=["字数限定在30个字左右"])
 ```
-### 使用Json类型的Prompt
+### 2.使用Json类型的Prompt
 
 ```shell
 # 进入到项目路径
@@ -75,7 +75,7 @@ print(prompt.format(documents="funny", require="chickens"))
 # langchain继续使用
 ```
 
-### 使用Yaml类型的Prompt
+### 3.使用Yaml类型的Prompt
 
 ```shell
 # 进入到项目路径
@@ -95,7 +95,7 @@ print(prompt.format(documents="funny", require="chickens"))
 # langchain继续使用
 ```
 
-### 使用Text类型的Prompt
+### 4.使用Text类型的Prompt
 
 ```shell
 # 进入到项目路径
