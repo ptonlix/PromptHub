@@ -1,0 +1,32 @@
+meta:
+  author:
+  - ptonlix <baird0917@163.com>
+  description: '总结文档Prompt，可以通过明确要求，让LLM总结所需的文档'
+  license: MIT
+  llm:
+  - gpt-3.5-turbo
+  name: summarization
+  readme_format: md
+  tag:
+  - summarization
+  version: 0.0.1
+text_prompt:
+  dirname: text
+json_prompt:
+  dirname: json
+  list:
+  - dependencies:
+      langchain: ^0.0.266
+    name: summarization
+yaml_prompt:
+  dirname: yaml
+  list:
+  - dependencies:
+      langchain: ^0.0.266
+    name: summarization
+python_prompt:
+  dirname: python
+  list:
+  - dependencies:
+      langchain: ^0.0.266
+    name: summarization

@@ -1,0 +1,5 @@
+{
+    "_type": "prompt",
+    "input_variables": ["documents", "require"],
+    "template": "总结以下文档内容：\n```\n{documents} \n```\n要求：\n```\n{require}\n```\n总结内容："
+}
