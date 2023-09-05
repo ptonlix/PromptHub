@@ -104,7 +104,7 @@ cd Python项目路径
 # 拉取Python库到项目
 ssprompt pull -s summarization -t text
 ```
-##### 使用
+#### 使用
 
 可以通过修改，复制到[openai](http://chat.openai.com)聊天交互页面使用
 
