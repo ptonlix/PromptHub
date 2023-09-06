@@ -1,6 +1,5 @@
 from langchain import OpenAI
 from langchain.chains import LLMChain
-from numpy import require
 
 def test_prompt():
     # 使用api2d访问openai

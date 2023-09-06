@@ -1,7 +1,7 @@
 meta:
   author:
   - chenfudong <260431910@qq.com>
-  description: ''
+  description: 'ssprompt测试用例'
   license: MIT
   llm:
   - gpt-3.5-turbo

@@ -15,4 +15,4 @@ PROMPT = PromptTemplate.from_template(template)
 if __name__ == "__main__":
     from langchain.chat_models import ChatOpenAI
     from langchain.chains import LLMChain
-    chain = LLMChain(llm=ChatOpenAI(), prompt=PROMPT)
+    chain = LLMChain(llm=ChatOpenAI(), prompt=PROMPT.format())
