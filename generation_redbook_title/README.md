@@ -56,7 +56,7 @@ chain.run(theme="大语言模型Prompt", keywords=["恐龙抗狼, 酱香"])
 
 ```
 
-### 4.使用 Text 类型的 Prompt
+### 2.使用 Text 类型的 Prompt
 
 ```shell
 # 进入到项目路径
