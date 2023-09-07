@@ -13,8 +13,8 @@ PROMPT = """\
 总结内容：
 """
 
-class SummarizationPromptTemplate(StringPromptTemplate, BaseModel):
 
+class SummarizationPromptTemplate(StringPromptTemplate, BaseModel):
     @validator("input_variables")
     def validate_input_variables(cls, v):
         """Validate that the input variables are correct."""
@@ -23,10 +23,7 @@ class SummarizationPromptTemplate(StringPromptTemplate, BaseModel):
         return v
 
     def format(self, **kwargs) -> str:
-
-        prompt = PROMPT.format(
-            documents=kwargs["documents"], require=kwargs["require"]
-        )
+        prompt = PROMPT.format(documents=kwargs["documents"], require=kwargs["require"])
         return prompt
 
     def _prompt_type(self):
@@ -37,10 +34,10 @@ if __name__ == "__main__":
     docstr = "Let's suppose we want the LLM to generate English language explanations of \
 a function given its name. To achieve this task, we will create a custom prompt template that \
 takes in the function name as input, and formats the prompt template to provide the source code of the function."
-    summarize_prompt = SummarizationPromptTemplate(input_variables=["documents", "require"])
-    # prompt = summarize_prompt.format(documents=docstr, require=None) 
-    prompt = summarize_prompt.format(documents=docstr, require=["字数在十五个字", "言简意赅"]) 
+    summarize_prompt = SummarizationPromptTemplate(
+        input_variables=["documents", "require"]
+    )
+    # prompt = summarize_prompt.format(documents=docstr, require=None)
+    prompt = summarize_prompt.format(documents=docstr, require=["字数在十五个字", "言简意赅"])
 
     print(prompt)
-
-
