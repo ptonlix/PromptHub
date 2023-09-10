@@ -40,6 +40,11 @@ PROMPT_TEMP = """
 
 prompt_template = PromptTemplate.from_template(PROMPT_TEMP)
 
+
+class test:
+    ...
+
+
 if __name__ == "__main__":
     promptshow = prompt_template.format(topic="大语言模型Prompt")
 

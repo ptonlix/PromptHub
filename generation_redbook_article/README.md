@@ -47,6 +47,7 @@ OpenAI.openai_api_base = "https://oa.api2d.net"
 
 ai = OpenAI()
 ai.openai_api_base = "https://oa.api2d.net/v1"
+ai.model_name = "gpt-3.5-turbo-16k"
 
 from generation_redbook_article import PROMPT
 
