@@ -133,3 +133,9 @@ ssprompt 建议采用流行的开源协议，如
 1. 项目说明：学习小红书标题风格，根据输入的主题创造对应小红书标题
 
 2. 使用参考：[README](generation_redbook_title/README.md)
+
+### generation_redbook_article
+
+1. 项目说明：一键快速生成小红书爆火文章
+
+2. 使用参考：[README](generation_redbook_article/README.md)

@@ -1,0 +1,5 @@
+from generation_redbook_article import prompt_template
+
+PROMPT = prompt_template
+
+__all__ = ["PROMPT"]

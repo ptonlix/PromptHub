@@ -1,4 +1,3 @@
-import keyword
 from langchain.output_parsers import CommaSeparatedListOutputParser
 from langchain.prompts import StringPromptTemplate
 from pydantic import BaseModel, validator
